@@ -1,7 +1,6 @@
 var right = document.getElementsByClassName("right");
     var si = right.length;
     var z=1;
-    turnRight();
     function turnRight()
     {
         if(si>=1){
