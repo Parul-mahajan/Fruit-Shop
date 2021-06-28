@@ -11,11 +11,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #F7DAD9;
 
 }
 .book-section > .container{
-    height: 400px;
-    width: 500px;
+    height: 450px;
+    width: 550px;
     position: relative;
     border-radius: 2%;
     margin-bottom: 30px;
@@ -97,4 +98,11 @@ body{
 .book-section > .buttons > button > i {
     color: rgb(161, 159, 159);
     font-size: 3em;
+}
+.cart{
+    color: gray;
+    font-size: 7rem;
+}
+.cart:hover{
+    font-size: 7rem;
 }
