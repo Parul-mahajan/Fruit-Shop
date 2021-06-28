@@ -1,9 +1,7 @@
-body{
-    margin:0;
-  }
+
   
   #home{
-    background-color:#D6D2C4;
+    background-color:#e5dedb;
     position:relative;
     margin-top: 0px;
     padding-top:180px;
@@ -46,6 +44,8 @@ body{
 
 .fas{
     font-size: 2rem;
+    
+
 }
   .fas:hover{
         font-size: 2.5rem;
@@ -69,6 +69,7 @@ body{
 
     #deivery{
         margin-top: 0;
+        background-color: #fce8bc;
 
     }
     .truck{
@@ -83,14 +84,14 @@ body{
     }
     .wm{
         background-color: #4e7728;
-        height: 70px;
-        width: 150px;
+        height: 5vw;
+        width: 10vw;
         border-radius: 150px 150px 0 0;
        
     }
     .wm2{
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 2vw;
+        margin-right: 2vw;
     }
     .eye1{
         margin-top: 10px;
@@ -118,12 +119,4 @@ body{
             transform: scale(1, 1);
         }
     }
-    .cornea3{
-      margin-top: 4px;
-      margin-left: 5px;;
-      background-color:white;
-      height: 10px;
-      width: 10px;
-      border-radius: 50%;
-      -webkit-animation: blink 2s infinite;
-  }
+    
