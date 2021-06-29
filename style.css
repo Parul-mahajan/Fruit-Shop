@@ -4,13 +4,15 @@
   margin-top: 0px;
   padding-top: 180px;
 }
-   h1 {
+  h1 {
     font-family:'Hammersmith One';
     text-align:center;
     font-size: 4rem;
     letter-spacing: 6px;
     margin:0 auto;
     font-weight: 300;
+  }
+
 .heading {
   margin-top: 0;
   padding-bottom: 150px;
@@ -68,25 +70,7 @@
   background-color: #fce8bc;
   padding: 200px;
 }
-
-.melons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin:10px auto 30px auto;
-}
-.eyeballs{
-  position: relative;
-left:50px
-
-}
-
-
-
 .truck{
-
-
   width: 500%;
   position: absolute;
   top: 750px;
@@ -114,17 +98,7 @@ left:50px
   100% {left: 1500px}
 }
 
-.wm {
-  background-color: #4e7728;
-  height: 5vw;
-  width: 10vw;
-  border-radius: 150px 150px 0 0;
-}
 
-.wm2 {
-  margin-left: 2vw;
-  margin-right: 2vw;
-}
 
 .eye {
   margin: 0 auto 0 auto;
@@ -261,4 +235,9 @@ left:50px
   width: 10px;
   border-radius: 50%;
   -webkit-animation: blink 2s infinite;
+}
+.eyeballs{
+  position: relative;
+left:50px
+
 }
