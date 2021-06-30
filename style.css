@@ -81,21 +81,32 @@
   background-color: #fce8bc;
   /* padding: 200px; */
   margin-right: 0;
-  height: 80vh;
+  height: 800px;
   width: 100%;
   overflow:hidden;
   position: relative;
-  
+  background: url(https://res.cloudinary.com/delivery-com/image/fetch/f_auto/https%3A%2F%2Fs3.amazonaws.com%2Fs3.delivery.com%2FHomepage%2FDownloadApps%2FCityBackground.png) repeat-x center bottom #fff;
+    background-image: url(https://res.cloudinary.com/delivery-com/image/fetch/f_auto/https%3A%2F%2Fs3.amazonaws.com%2Fs3.delivery.com%2FHomepage%2FDownloadApps%2FCityBackground.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: auto 300px;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #fce8bc;
+
 }
 .truck{
   position: absolute;
-  top:35%;
+  top:650px;
 animation:myfirst 5s  linear infinite;
-width: 400px;
-height: 400px;
+width: 200px;
+height: 200px;
 
   /* transform: translateX(-20%);
- 
+
   animation: truck 3s linear infinite; */
 }
 /* @keyframes truck {
@@ -115,12 +126,12 @@ height: 400px;
   100% { left:0px; top:0px;}*/
 /* 0%   {left:-500px; }
   100% {left: device-width;}
-} */ 
+} */
 @-webkit-keyframes myfirst
 {
 	0%   {left:-25%;}
 	100% {left:100%;}
-} 
+}
 
 
 .eye {
@@ -275,4 +286,90 @@ height: 400px;
   margin: 40px;
   margin-bottom: 10px;
 }
+.address{
 
+  position: absolute;
+  right:45%;
+  left: auto;
+
+}
+.address_input_class{
+  height:100px;
+  margin:20px auto;
+  right: 90px;
+  top:150px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.headline{
+  display: block;
+  margin:0px;
+  margin-top: 70px;
+  font-size:1.857rem;
+}
+.input_box{
+  height:40px;
+  padding: 5px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  margin:5px auto;
+  width: 100%;
+}
+.mobile{
+  height:40px;
+  padding: 5px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  margin: 10px auto;
+  width:100%;
+
+}
+.submit_button{
+  padding: 9px 20px;
+  width:100%;
+  height:40px;
+  background-color:blue;
+}
+.shop-now{
+  position:absolute;
+  right:50px;
+  top:200px;
+}
+.shopping{
+  border-radius: 100%;
+  height: 90px;
+  width:90px;
+  position: absolute;
+  top:10px;
+  right:20px;
+}
+shop-text::after{
+  color:black;
+}
+.location_icon{
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  top: calc(53% - 7px);
+  left: 3px;
+  pointer-events: none;
+}
+.arrow_icon{
+  font-size: 1.5rem;
+  color:blue;
+
+  pointer-events: none;
+}
+.phone-icon{
+  font-size: 1.5rem;
+  color:blue;
+  pointer-events: none;
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  top: calc(77% - 7px);
+  left: 1px;
+}
