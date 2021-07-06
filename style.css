@@ -2,30 +2,45 @@
   /* background-color: #e5dedb; */
   background-size: cover;
   position: relative;
-  margin-top: 0px;
   /* padding-top: 180px; */
-  background-image: url(home.png);
+  background-image: url(bg.png);
   background-repeat: no-repeat;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-h1 {
-  font-family: 'Hammersmith One';
-  text-align: center;
-  font-size: 6rem;
-  letter-spacing: 6px;
-  margin: 5% auto;
-  font-weight: 300;
-}
 
-.heading {
-  margin-top: 0;
-  padding-bottom: 150px;
-  text-align: center;
-  font-family: 'Hammersmith One';
-  font-size: medium;
+#home h2{
+  /* margin-top: 0; */
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 5vh;
   letter-spacing: 3px;
-  font-weight: 100;
+  color: #edfce5;
+  font-style: italic;
+  /* margin-top: -34px; */
+
+}
+.deliveryhead {
+  font-family:'Cormorant Garamond', serif;
+  text-align: center;
+  font-size: 8vh;
+  /* letter-spacing: 6px; */
+  /* margin: 5% auto; */
+  font-weight: 900;
+  color: #edfce5;
+}
+
+#home h1 {
+  font-family:'Cormorant Garamond', serif;
+  text-align: center;
+  font-size: 18vh;
+  /* letter-spacing: 6px; */
+  /* margin: 5% auto; */
+  font-weight: 900;
+  color: #edfce5;
 }
 
 #mySidenav {
@@ -39,7 +54,7 @@ h1 {
   width: 100px;
   text-decoration: none;
   font-size: 20px;
-  color: black;
+  color:#442b1e;
   margin-top: 100px;
 }
 
@@ -49,7 +64,7 @@ h1 {
 }
 
 #Logo {
-  top: -90px;
+  top: -80px;
   left: 12px;
 }
 
@@ -58,11 +73,11 @@ h1 {
   left: 24px;
 }
 
-.fas {
+#mySidenav .fas {
   font-size: 2rem;
 }
 
-.fas:hover {
+#mySidenav .fas:hover {
   font-size: 2.5rem;
   transition: 0.2s ease-out;
 }
@@ -79,70 +94,103 @@ h1 {
   top: 210px;
 }
 
-/* delivery page */
-#delivery {
-  margin-top: 10;
-  background-color: #fff;
-  /* padding: 200px; */
-  margin-right: 0;
-  width: 100%;
-  overflow: hidden;
-  /* height: 80vh; */
-  background: url(city.png) repeat-x center bottom #E1E5EA;
-  background-image: url(city.png);
-  background-position-x: center;
-  background-position-y: bottom;
-  background-size: auto 300px;
-  background-repeat-x: repeat;
-  background-repeat-y: no-repeat;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  /* background-size: contain; */
-  /* background-color: #fce8bc; */
+
+#about-us{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #edfce5;
+  height: 80vh;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+.fb{
+  float: right;
+  width: 20%;
+  height: 100%;
+}
+.heading-ab{
+  font-family:'Cormorant Garamond', serif;
+  text-align: center;
+  font-size: 12vh;
+  /* letter-spacing: 6px; */
+  /* margin: 5% auto; */
+  color: #483f6b;
 }
 
-.delivery-heading {
-  text-align: center;
+.about{
+  color: #7F8B52;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* delivery page */
+#delivery {
+  background-color:white;
+  /* margin-right: 0; */
+  height: 90vh;
+  overflow: hidden;
+  /* height: 80vh; */
+  background: url(city.png) repeat-x center bottom #b5cda3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .headline {
-  display: block;
-  margin: 4% auto;
-  text-align: center;
-  font-size: 1.857rem;
-}
-
+   /* margin: auto;   */
+  text-align: center; 
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 5vh;
+  letter-spacing: 3px;
+  color: #edfce5;
+  font-style: italic;
+}   
 .order-button {
   background-color: #4AA96C;
   text-align: center;
-  border-radius: 50px;
-  margin: 4% auto;
+  border-radius: 50px ;
+  border-color: #4AA96C;
+  /* box-shadow: 0 8px 6px -6px gray;  */
   font-size: 2rem;
-  width: 200px;
-  height: 80px;
-  top: 30%;
-  transition: top 1250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transform: translate3d(0, 0, 0);
-  z-index: -1;
+  margin: 30px; 
+  /* top: 30%; */
+   /* transition: top 1250ms cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+  transform: translate3d(0, 0, 0); */
+   /* z-index: -1; */
+} 
+.delivery-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
-
-/* .truck-section{
-  height: 300px;
-  width:100%;
-  position: absolute;
-  top:1350px;
-
-} */
 .truck {
   position: relative;
-  top: 99px;
   animation: myfirst 5s linear infinite;
-  width: 400px;
-  height: 400px;
-  /* transform: translateX(-20%);
-
-  animation: truck 3s linear infinite; */
+  width: 25%;
+  height: 30%;
+  transform: translateX(-100%);
+  box-shadow: 0 8px 6px -6px gray;
+  bottom: -13%;
+  /* animation: truck 3s linear infinite;  */
 }
 
 /* @keyframes truck {
@@ -504,13 +552,17 @@ h1 {
   text-align: center;
   margin: 20px auto;
   position: relative;
-  lest: 50%
+  left: 50%;
 }
 
 .network {
   /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  background-color: #B5EAEA;
+  background-color: #edfce5;
+  flex-direction: column;
 }
 
 /* season page */
@@ -588,6 +640,20 @@ h1 {
   background-image: url(orange.jpg);
   border-radius: 15px;
 }
+
+
+#footer{
+  text-align: center;
+  background-color: #b5cda3;
+  padding: 5% 2%;
+  color: #edfce5;
+}
+
+.iconlast{
+  color: #edfce5;
+  margin: 2% 1%;
+}
+
 
 /* .fruit-box .fruit-card .shape{
   position: absolute;
@@ -712,3 +778,13 @@ transition: 0.5s;
       border-radius: 15px;
     }
   }
+
+*/
+
+
+
+/* .iconlast{
+  margin: 2% 7%;
+  /* padding: 4%; 
+}
+*/
