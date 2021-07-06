@@ -1,29 +1,28 @@
 #home {
-  background-color: #e5dedb;
   position: relative;
-  margin-top: 0px;
-  padding-top: 180px;
   background-image: url(home.png);
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 97vh;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  background-size: cover;
+  flex-direction: column;
 }
   h1 {
     font-family:'Hammersmith One';
-    text-align:center;
-    font-size: 4rem;
+    font-size: 5vw;
     letter-spacing: 6px;
-    margin:0 auto;
     font-weight: 300;
+    margin-bottom: 0;
   }
 
 .heading {
-  margin-top: 0;
-  padding-bottom: 150px;
-  text-align: center;
   font-family:'Hammersmith One';
-  font-size: medium;
   letter-spacing: 3px;
   font-weight: 100;
+  font-size: 2vw;
+  margin-top: -10px; 
 
 }
 #mySidenav{
